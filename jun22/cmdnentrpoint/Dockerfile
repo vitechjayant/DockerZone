@@ -1,4 +1,4 @@
-FROM alpine:3.10.4
+FROM alpine:3.14
 LABEL author="khaja"
 ENTRYPOINT [ "echo" ]
 CMD ["hello"]
