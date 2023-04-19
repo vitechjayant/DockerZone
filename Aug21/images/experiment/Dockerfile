@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 LABEL author='khaja'
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt update && apt install apache2 -y \
