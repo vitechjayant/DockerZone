@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.13.0a4-alpine
 LABEL author "khaja"
 RUN adduser -D qtuser && mkdir /home/qtuser/sample
 USER qtuser
