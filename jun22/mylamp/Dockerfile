@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:20.04
 LABEL purpose="classroom" author="khaja"
 RUN export DEBIAN_FRONTEND=noninteractive && apt update && apt install apache2 -y 
 EXPOSE 80
